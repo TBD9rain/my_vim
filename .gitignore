@@ -1,0 +1,5 @@
+# ignore shortcut files
+*.lnk
+
+# ignore vim operation record files
+*~
