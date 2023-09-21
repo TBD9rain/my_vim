@@ -149,3 +149,11 @@ autocmd BufNewFile *.do 0r C:\Program Files\Vim\vimfiles\template\modelsimDo.do
 
 " C code template
 autocmd BufNewFile *.c 0r C:\Program Files\Vim\vimfiles\template\code.c
+
+
+" vim-plug
+call plug#begin('C:/Program Files/Vim/vimfiles/plugged')
+
+
+
+call plug#end()
