@@ -154,6 +154,6 @@ autocmd BufNewFile *.c 0r C:\Program Files\Vim\vimfiles\template\code.c
 " vim-plug
 call plug#begin('C:/Program Files/Vim/vimfiles/plugged')
 
-
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
 call plug#end()
