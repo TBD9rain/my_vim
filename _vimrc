@@ -131,6 +131,10 @@ autocmd BufNewFile,BufRead *.c set filetype=c
 " modelsim do files
 autocmd BufNewFile,BufRead *.do set filetype=tcl
 
+" git ignore files
+autocmd BufNewFile,BufRead .gitignore set filetype=gitignore
+
+
 " LOAD TEMPLATE
 " verilog testbench template
 autocmd BufNewFile *{_tb}.v 0r C:\Program Files\Vim\vimfiles\template\verilog_testbench_template.v
@@ -149,6 +153,9 @@ autocmd BufNewFile *.do 0r C:\Program Files\Vim\vimfiles\template\modelsimDo.do
 
 " C code template
 autocmd BufNewFile *.c 0r C:\Program Files\Vim\vimfiles\template\code.c
+
+" git ignore template
+autocmd BufNewFile .gitignore 0r C:\Program Files\Vim\vimfiles\template\template.gitignore
 
 
 " vim-plug
